@@ -1,0 +1,29 @@
+{
+  "name": "one-love-patternlab",
+  "version": "0.0.1",
+  "description": "Markup source for One Love project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass css/style.scss > css/style.css --include-path=node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/one-love/patternlab-src.git"
+  },
+  "author": "One Love OneLove Style Markup Patternlab",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/one-love/patternlab-src/issues"
+  },
+  "homepage": "https://github.com/one-love/patternlab-src#readme",
+  "devDependencies": {
+    "inuit-box-sizing": "^0.2.0",
+    "inuit-defaults": "^0.2.3",
+    "inuit-functions": "^0.2.0",
+    "inuit-mixins": "^0.2.3",
+    "inuit-normalize": "^3.0.3",
+    "inuit-page": "^0.2.1",
+    "node-sass": "^3.2.0"
+  }
+}
